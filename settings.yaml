@@ -318,10 +318,10 @@ spec:
           value: https://beian.miit.gov.cn/
         - $formkit: text
           name: gongan_text
-          label: 网安备案号          
-        - $formkit: text
-          name: gongan
-          label: 公安备案
-          value: https://www.beian.gov.cn/portal/registerSystemInfo
+          label: 网安备案号
           placeholder: 请输入公安备案号
           help: "豫公网安备 xxxxxxxx号"
+        - $formkit: text
+          name: gongan
+          label: 备案跳转连接
+          value: https://www.beian.gov.cn/portal/registerSystemInfo
