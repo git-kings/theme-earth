@@ -36,6 +36,15 @@
       th:text="${theme.config.beian.icp_text}"
     ></a>
   </span>
+  <span class="container mx-auto block text-center text-sm text-gray-500">
+    <a
+      href="https://www.beian.gov.cn/portal/registerSystemInfo"
+      class="hover:underline"
+      target="_blank"
+      th:href="${theme.config.beian.gongan}"
+      th:text="${theme.config.beian.gongan_text}"
+    ></a>
+  </span>
   <span class="container mx-auto block text-center text-sm text-gray-500 dark:text-slate-300">
     ©
     <th:block th:text="${#dates.format(new java.util.Date().getTime(), 'yyyy')}" />
@@ -104,6 +113,15 @@
           th:text="${theme.config.beian.icp_text}"
         ></a>
       </span>
+      <span class="block text-center text-sm text-gray-500">
+        <a
+          href="https://www.beian.gov.cn/portal/registerSystemInfo"
+          class="hover:underline"
+          target="_blank"
+          th:href="${theme.config.beian.gongan}"
+          th:text="${theme.config.beian.gongan_text}"
+        ></a>
+    </span>
       <span class="text-sm text-gray-500 dark:text-slate-300 sm:text-center">
         ©
         <th:block th:text="${#dates.format(new java.util.Date().getTime(), 'yyyy')}" />
